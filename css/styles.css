@@ -445,7 +445,9 @@ mark,
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
-
+.list-inline-item:hover {
+  color: #6f42c1;
+}
 .initialism {
   font-size: 90%;
   text-transform: uppercase;
@@ -10135,6 +10137,11 @@ section.resume-section .resume-section-content {
 .mysql {
   filter: sepia(30%);
 }
+
+.mysql:hover {
+    color: #6f42c1;
+}
+
 .scout-app {
   filter: opacity(65%);
 }
